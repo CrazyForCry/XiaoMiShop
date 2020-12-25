@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="./css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/login.css"/>
+		<title></title>
+		<script type="text/javascript">
+			// 1rem = 100px
+			// 1px = 0.01rem
+			(function (doc, win, undefined) {
+			            var docEl = doc.documentElement,
+			              resizeEvt = 'orientationchange' in win? 'orientationchange' : 'resize',
+			              recalc = function () {
+			                var clientWidth = docEl.clientWidth;
+			                if (clientWidth === undefined) return;
+			                //以ip5为基准  
+			                docEl.style.fontSize =(clientWidth*100) / 375 + 'px';
+			             };
+			           if (doc.addEventListener === undefined) return;
+			         win.addEventListener(resizeEvt, recalc, false);
+			           doc.addEventListener('DOMContentLoaded', recalc, false)
+			         })(document, window);
+		</script>
+	</head>
+	<body>
+		<div id="logo">
+			<img src="images/mi (83).jpg" />
+			<p>手机验证码登录</p>
+		</div>
+		
+		<div id="content">
+			<form action="#" method="get">
+				<input type="tel" name="tel" id="tel" placeholder="手机号码" />
+				<input type="text" name="code" id="code" placeholder="短信验证码" />
+				<input type="submit" name="submit" id="submit" value="立即登录/注册" />
+				<button type="button">用户名密码登陆</button>
+				<a href="#">收不到验证码？
+				</a>
+			</form>
+		</div>
+		
+		<div id="fixedImg">
+			<img src="images/mi%20(65).jpg" >
+		</div>
+	</body>
+</html>

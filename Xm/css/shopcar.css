@@ -1,0 +1,152 @@
+
+			#header{
+				width: 100%;
+				height: 0.4rem;
+				border-bottom: 0.01rem solid lightgray;
+			}
+			#header ul{
+				width: 100%;
+				height: 0.4rem;
+				display: flex;
+				justify-content: space-between;
+				clear: both;
+			}
+			#header ul li{
+				font-size: 0.16rem;
+				line-height: 0.4rem;
+				width: 100%;
+				text-align: center;
+			}
+			#header ul li img{
+				display: block;
+				width: 26%;
+				height: 70%;
+				/* margin: 0 auto; */
+				margin-top: 0.06rem;
+			}
+			#header ul li:first-of-type{
+				text-align: left;
+			}
+			#header ul li:last-of-type img{
+				float: right;
+			}
+			#container{
+				width: 100%;
+				height: 7rem;
+				/* background-color: #87CEEB; */
+			}
+			#container h3:nth-of-type(1){
+				width: 100%;
+				text-align: center;
+				font-size: 0.16rem;
+				color: coral;
+				font-size: 0.2rem;
+				font-weight: 900;
+			}
+			#container .top{
+				width: 100%;
+				height: 0.5rem;
+				line-height: 0.5rem;
+				clear: both;
+				font-size: 0.14rem;
+				padding: 0 0.1rem;
+				border-bottom: 0.01rem solid lightgray;
+			}
+			#container .top h3{
+				width: 80%;
+				text-align: left;
+				color: black;
+				font-weight: normal;
+				float: left;
+				font-size: 0.16rem;
+			}
+			#container .top p{
+				float: right;
+				color: gray;
+			}
+			#container .carlist{
+				width: 60%;
+				margin: 0 auto;
+				height: 0.5rem;
+				display: flex;
+				justify-content: center;
+				/* background-color: #808080; */
+				margin-top: 0.1rem;
+			}
+			#container .carlist li{
+				width: 100%;
+				height: 0.5rem;
+				line-height: 0.5rem;
+				text-align: center;
+				font-size: 0.16rem;
+				color: gray;
+			}
+			#container .carlist li:first-of-type img{
+				display: block;
+				width: 50%;
+				height: 80%;
+				margin: 0 auto;
+				vertical-align: middle;
+			}
+			#container .shoplist{
+				width: 90%;
+				height: 4.6rem;
+				margin: 0 0.2rem;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				margin-top: 0.1rem;
+				/* border: 1px solid; */
+			}
+			#container .shoplist li{
+				width: 46%;
+				height: 2.5rem;
+				font-size: 0.16rem;
+				margin-left: 0.1rem;
+			}
+			#container .shoplist li img{
+				display: block;
+				width: 100%;
+				height: 60%;
+			}
+			#container .shoplist li p{
+				width: 100%;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				letter-spacing: initial;
+			}
+			#footer{
+				width: 100%;
+				height: 0.6rem;
+				background-color: white;
+				position: fixed;
+				bottom: 0;
+				border-top: 0.01rem solid lightgray;
+			}
+			#footer ul{
+				width: 100%;
+				height: 0.6rem;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: nowrap;
+			}
+			#footer ul li{
+				width: 100%;
+				height: 0.6rem;
+				text-align: center;
+				font-size: 0.16rem;
+			}
+			#footer ul li div{
+				width: 100%;
+				height: 0.3rem;
+				text-align: center;
+			}
+			#footer ul li div img{
+				width: 40%;
+				height: 90%;
+			}
+			#footer ul li p{
+				width: 100%;
+				text-align: center;
+			}
+	

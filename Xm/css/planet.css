@@ -1,0 +1,109 @@
+
+			#container{
+				width: 100%;
+				height: 8rem;
+			}
+			#container .shoplist{
+				width: 90%;
+				height: 4.6rem;
+				margin: 0 0.2rem;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				margin-top: 0.1rem;
+				/* border: 1px solid; */
+			}
+			#container .shoplist li{
+				width: 46%;
+				height: 2.5rem;
+				font-size: 0.16rem;
+				margin-left: 0.1rem;
+			}
+			#container .shoplist li img{
+				display: block;
+				width: 100%;
+				vertical-align: middle;
+				/* height: 60%; */
+			}
+			#container .shoplist li p{
+				width: 100%;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				letter-spacing: initial;
+			}
+			#container .shoplist li p:first-of-type{
+				height: 0.48rem;
+			}
+			#container .shoplist li p:last-of-type{
+				height: 0.2rem;
+				line-height: 0.2rem;
+				font-size: 0.14rem;
+				color: gray;
+			}
+			#container .navlist{
+				width: 100%;
+				height: 1rem;
+				display: flex;
+				/* border: 1px solid; */
+				justify-content: space-around;
+				overflow: hidden;
+			}
+			#container .navlist li{
+				width: 100%;
+				height: 1rem;
+				line-height: 1rem;
+				text-align: center;
+			}
+			#container .navlist li img{
+				width: 80%;
+			}
+			#footer{
+				width: 100%;
+				height: 0.6rem;
+				background-color: white;
+				position: fixed;
+				bottom: 0;
+				border-top: 0.01rem solid lightgray;
+			}
+			#footer ul{
+				width: 100%;
+				height: 0.6rem;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: nowrap;
+			}
+			#footer ul li{
+				width: 100%;
+				height: 0.6rem;
+				text-align: center;
+				font-size: 0.16rem;
+			}
+			#footer ul li div{
+				width: 100%;
+				height: 0.3rem;
+				text-align: center;
+			}
+			#footer ul li div img{
+				width: 40%;
+				height: 90%;
+			}
+			#footer ul li p{
+				width: 100%;
+				text-align: center;
+			}
+			#fixed{
+				width: 0.8rem;
+				height: 0.8rem;
+				position: fixed;
+				bottom: 1rem;
+				left: 50%;
+				background-color: transparent;
+				border-radius: 50%;
+				transform: translateX(-50%);
+			}
+			#fixed img{
+				border-radius: 50%;
+				width: 100%;
+				height: 100%;
+			}
+	

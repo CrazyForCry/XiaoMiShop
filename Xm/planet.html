@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		   <link rel="stylesheet" type="text/css" href="./css/common.css"/>
+		 
+		   <link rel="stylesheet" type="text/css" href="./css/planet.css"/>
+		   <script src="./js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+		   <script src="./js/jquery.tmpl.js" type="text/javascript" charset="utf-8"></script>
+		
+		   <title>小米商城</title>
+		   <script type="text/javascript">
+		   	// 1rem = 100px
+		   	// 1px = 0.01rem
+		   	(function (doc, win, undefined) {
+		   	            var docEl = doc.documentElement,
+		   	              resizeEvt = 'orientationchange' in win? 'orientationchange' : 'resize',
+		   	              recalc = function () {
+		   	                var clientWidth = docEl.clientWidth;
+		   	                if (clientWidth === undefined) return;
+		   	                //以ip5为基准  
+		   	                docEl.style.fontSize =(clientWidth*100) / 375 + 'px';
+		   	             };
+		   	           if (doc.addEventListener === undefined) return;
+		   	         win.addEventListener(resizeEvt, recalc, false);
+		   	           doc.addEventListener('DOMContentLoaded', recalc, false)
+		   	         })(document, window);
+		   </script>
+	</head>
+	<body>
+		
+		
+		<div id="container">
+			<ul class="navlist">
+				<li>
+					<img src="./images/mi%20(17).jpg" >
+				</li>
+				<li>
+					<img src="./images/mi%20(40).jpg" >
+				</li>
+				<li>
+					<img src="./images/mi%20(59).jpg" >
+				</li>
+				<li>
+					<img src="./images/mi%20(60).jpg" >
+				</li>
+			</ul>
+			<ul class="shoplist">
+				<li>
+					<img src="./images/mi%20(10).jpg" >
+					<p>【图文回顾】小米10新品直播发布会</p>
+					<p>小米10来了，你觉得有哪些新探索？</p>
+				</li>
+				<li>
+					<img src="./images/mi%20(37).jpg" >
+					<p>手机NFC功能——只用一次，就再也离不开</p>
+					<p>Redmi Note 8 Pro</p>
+				</li>
+				<li>
+					<img src="./images/mi%20(10).jpg" >
+					<p>【图文回顾】小米10新品直播发布会</p>
+					<p>小米10来了，你觉得有哪些新探索？</p>
+				</li>
+				<li>
+					<img src="./images/mi%20(37).jpg" >
+					<p>手机NFC功能——只用一次，就再也离不开</p>
+					<p>Redmi Note 8 Pro</p>
+				</li>
+			</ul>
+		</div>
+	
+		
+		<div id="footer">
+			<ul>
+				<li>
+					<div>
+						<img src="./images/mi%20(72).jpg" />
+					</div>
+					<p>首页</p>
+				</li>
+				<li>
+					<div>
+						<img src="./images/mi%20(69).jpg" />
+					</div>
+					<p>分类</p>
+				</li>
+				<li>
+					<div>
+						<img src="./images/mi%20(75).jpg" />
+					</div>
+					<p>星球</p>
+				</li>
+				<li>
+					<div>
+						<img src="./images/mi%20(66).jpg" />
+					</div>
+					<p>购物车</p>
+				</li>
+				<li>
+					<div>
+						<img src="./images/mi%20(78).jpg" />
+					</div>
+					<p>我的</p>
+				</li>
+			</ul>
+		</div>
+		
+		<div id="fixed">
+			<img src="./images/mi%20(88).jpg" />
+		</div>
+	</body>
+	<script type="text/javascript">
+		for(let i=0;i<$("#footer ul li").length;i++){
+			$("#footer ul li").eq(i).click(function(){
+				switch (i){
+					case 0:
+						window.location.href = "index.html"
+						break;
+					case 1:
+						window.location.href = "category.html"
+						break;
+					case 2:
+						window.location.href = "planet.html"
+						break;
+					case 3:
+						window.location.href = "shopcar.html"
+						break;
+					case 4:
+						window.location.href = "mine.html"
+						break;
+					default:
+						break;
+				}
+			})
+		}
+		
+	</script>
+</html>

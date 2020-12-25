@@ -1,0 +1,157 @@
+
+			#header{
+				width: 100%;
+				height: 0.6rem;
+				/* background-color: #e18134; */
+				z-index: 0;
+			}
+			#header h3{
+				width: 80%;
+				margin: 0 auto;
+				height: 100%;
+				line-height: 0.6rem;
+				font-size: 0.16rem;
+				/* color: white; */
+				padding-left: 0.2rem;
+				position: relative;
+				z-index: 10;
+			}
+			/* #header h3:before{
+				content: "";
+				display: inline-block;
+				width: 0.4rem;
+				height: 0.4rem;
+				background: url(images/mi%20(48).jpg);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				vertical-align: middle;
+				position: absolute;
+				left: -0.2rem;
+				z-index: 10;
+				top: 50%;
+				transform: translateY(-50%);
+			} */
+			#header img{
+				position: absolute;
+				width: 10%;
+				margin-top: 0.1rem;
+				margin-left: 0.1rem;
+			}
+			#container{
+				width: 100%;
+				height: 7rem;
+				background-color: #EEEEEE;
+			}
+			#container .top{
+				width: 100%;
+				height: 0.3rem;
+				line-height: 0.3rem;
+				border-bottom: 0.01rem solid lightgray;
+			}
+			#container .top p{
+				font-size: 0.16rem;
+				padding: 0 0.2rem;
+			}
+			#container .top p:first-of-type{
+				float: left;
+			}
+			#container .top p:last-of-type{
+				float: right;
+			}
+			#container .iconlist{
+				width: 100%;
+				height: 0.8rem;
+				display: flex;
+				justify-content: space-around;
+				text-align: center;
+				background-color: white;
+			}
+			#container .iconlist li{
+				width: 100%;
+				height: 0.8rem;
+				text-align: center;
+				font-size: 0.16rem;
+			}
+			#container .iconlist li div{
+				width: 100%;
+				height: 0.4rem;
+				line-height: 0.6rem;
+			}
+			#container .iconlist li div img{
+				width: 24%;
+				height: 70%;
+				margin-top: 0.1rem;
+			}
+			#container .middle{
+				width: 100%;
+				height: 0.6rem;
+				clear: both;
+				background-color: white;
+				
+				border-bottom: 0.01rem solid lightgray;
+			}
+			#container .middle .middle-left{
+				float: left;
+				width: 20%;
+				height: 100%;
+				position: relative;
+			}
+			#container .middle .middle-right{
+				float: right;
+				width: 80%;
+				height: 100%;
+			}
+			#container .middle .middle-left img{
+				width: 50%;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+			}
+			#container .middle .middle-right h3{
+				width: 100%;
+				font-size: 0.18rem;
+				height: 100%;
+				line-height: 0.6rem;
+				padding-left: 0.2rem;
+			}
+			#container .middle:nth-of-type(4),
+			#container .middle:nth-of-type(6),
+			#container .middle:nth-of-type(8){
+				margin-top: 0.1rem;
+			}
+			#footer{
+				width: 100%;
+				height: 0.6rem;
+				background-color: white;
+				position: fixed;
+				bottom: 0;
+				border-top: 0.01rem solid lightgray;
+			}
+			#footer ul{
+				width: 100%;
+				height: 0.6rem;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: nowrap;
+			}
+			#footer ul li{
+				width: 100%;
+				height: 0.6rem;
+				text-align: center;
+				font-size: 0.16rem;
+			}
+			#footer ul li div{
+				width: 100%;
+				height: 0.3rem;
+				text-align: center;
+			}
+			#footer ul li div img{
+				width: 40%;
+				height: 90%;
+			}
+			#footer ul li p{
+				width: 100%;
+				text-align: center;
+			}
+	
